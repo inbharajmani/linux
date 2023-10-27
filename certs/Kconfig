@@ -1,6 +1,6 @@
 # SPDX-License-Identifier: GPL-2.0
 menu "Certificates for signature checking"
-
+# test ocmmit
 config MODULE_SIG_KEY
 	string "File name or PKCS#11 URI of module signing key"
 	default "certs/signing_key.pem"
